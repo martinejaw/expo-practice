@@ -9,7 +9,7 @@ import { useDispatch } from 'react-redux'
 
 
 
-const Recetas = (props) => {
+const Recetas = () => {
 
     const [recetas, setRecetas] = useState([])
     const [isLoading, setLoading] = useState(true)
